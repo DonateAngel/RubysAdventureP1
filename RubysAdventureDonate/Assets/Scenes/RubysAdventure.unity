@@ -92691,7 +92691,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 805450374599746281, guid: 06099d258faf9214abf37a8184a9287b, type: 3}
       propertyPath: m_Name
-      value: Enemy
+      value: Robot
       objectReference: {fileID: 0}
     - target: {fileID: 2676763624752611743, guid: 06099d258faf9214abf37a8184a9287b, type: 3}
       propertyPath: m_RootOrder
@@ -92699,11 +92699,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2676763624752611743, guid: 06099d258faf9214abf37a8184a9287b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -2.788
       objectReference: {fileID: 0}
     - target: {fileID: 2676763624752611743, guid: 06099d258faf9214abf37a8184a9287b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.142
       objectReference: {fileID: 0}
     - target: {fileID: 2676763624752611743, guid: 06099d258faf9214abf37a8184a9287b, type: 3}
       propertyPath: m_LocalPosition.z
@@ -92821,11 +92821,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2876879377621856029, guid: 3e88d5813b223ec41835da53e644009b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 1.264
       objectReference: {fileID: 0}
     - target: {fileID: 2876879377621856029, guid: 3e88d5813b223ec41835da53e644009b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.028
       objectReference: {fileID: 0}
     - target: {fileID: 2876879377621856029, guid: 3e88d5813b223ec41835da53e644009b, type: 3}
       propertyPath: m_LocalPosition.z
