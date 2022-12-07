@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 1178680604487525294}
   - component: {fileID: -9068476895001391550}
   m_Layer: 0
-  m_Name: CogBullet
+  m_Name: Projectile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
