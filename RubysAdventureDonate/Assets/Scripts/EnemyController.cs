@@ -25,7 +25,7 @@ public class EnemyController : MonoBehaviour
     void Update()
     {
         if(!broken)
-        { 
+        {
             return;
         }
         timer -= Time.deltaTime;
@@ -40,21 +40,21 @@ public class EnemyController : MonoBehaviour
     void FixedUpdate()
     {
 
-        if (!broken)
+        if(!broken)
         {
             return;
         }
-            Vector2 position = rigidbody2D.position;
+        Vector2 position = rigidbody2D.position;
 
         if (vertical)
         {
-            position.y = position.y + Time.deltaTime * speed * direction; 
+            position.y = position.y + Time.deltaTime * speed * direction;
             animator.SetFloat("Move X", 0);
             animator.SetFloat("Move Y", direction);
         }
         else
         {
-            position.x = position.x + Time.deltaTime * speed * direction; 
+            position.x = position.x + Time.deltaTime * speed * direction;
             animator.SetFloat("Move X", direction);
             animator.SetFloat("Move Y", 0);
         }
@@ -74,6 +74,7 @@ public class EnemyController : MonoBehaviour
     public void Fix()
     {
         broken = false;
+        rigidbody2D.simulated = false;
         //optional if you added the fixed animation
         animator.SetTrigger("Fixed");
     }
